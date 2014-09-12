@@ -1,0 +1,69 @@
+/*****************************
+BODY
+*****************************/
+.wrap {
+	background-image:  url(img/backgroundimage.jpeg);
+	background-repeat: no-repeat;
+	text-align: center;
+	line-height: 2;
+	border: 71px solid rgba(13, 128, 27, 0.6);
+}
+
+.whole_content {
+	background: url(img/numberpix.jpg) no-repeat;
+	
+}
+
+.numbergame {
+	text-align: center;
+	font-family: 'itc zapf chancery', tahoma, sans-serif;
+	font-style: italic;
+	font-size: 7.5em;
+	font-weight: bolder;
+	color: purple;
+}
+
+
+#secret_num {
+	text-align: center;
+	font-size: 1.7em
+}
+
+
+#enter_guess {
+	font-size: 3em;
+	color: purple;
+}
+
+#guess {
+	margin-bottom: 10px;
+	width: 12%;
+	height: 25px;
+	text-align: center;
+}
+
+#submit_button, #newgame_button {
+	padding: 7px;
+	background-color: indigo;
+	color: white;
+	border-style: none;
+	margin-bottom: 20px;
+}
+#submit_button:hover, #newgame_button:hover {
+	background-color: green;
+	color: white;
+}
+
+
+
+#progress {
+	color: darkgreen;
+	font-size: 2em;
+}
+
+.info {
+	color: darkgreen;
+	font-size: 1.5em;
+	font-style: italic;
+	position:relative;
+}

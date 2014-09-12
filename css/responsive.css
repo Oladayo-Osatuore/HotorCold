@@ -1,0 +1,66 @@
+
+@media screen and (max-width: 480px){
+	.wrap {
+		background-image:  url(img/backgroundimage.jpeg);
+		background-repeat: no-repeat;
+		text-align: center;
+		line-height: 1;
+		height: 100%;
+		border: 50px solid rgba(13, 128, 27, 0.6);
+	}
+
+	.whole_content {
+		background: none;
+		
+	}
+
+	.numbergame {
+		text-align: center;
+		font-family: 'itc zapf chancery', tahoma, sans-serif;
+		font-style: italic;
+		font-size: 3em;
+		font-weight: bolder;
+		color: purple;
+		padding: 5% 0 10% 0;
+	}
+
+
+	#secret_num {
+		text-align: center;
+		font-size: 1em;
+		padding: 0 0 10% 0;
+	}
+
+
+	#enter_guess {
+	font-size: 1.5em;
+	color: purple;
+	padding: 0 0 10% 0;
+}
+
+
+
+#guess {
+	margin-bottom: 10px;
+	width: 30%;
+	height: 40px;
+	text-align: center;
+
+}
+
+
+#submit_button, #newgame_button {
+	padding: 7px;
+	background-color: indigo;
+	color: white;
+	border-style: none;
+	margin: 20px 0 20px 0;
+}
+
+.info {
+	color: black;
+	font-size: 1em;
+	font-style: italic;
+	position:relative;
+	padding: 15px 0 10px 0;
+}
